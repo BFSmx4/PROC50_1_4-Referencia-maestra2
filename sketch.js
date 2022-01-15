@@ -16,7 +16,7 @@ function setup() {
   
   createCanvas(windowWidth,windowHeight);
 
-  //Añadir la clase de fondo
+  //Añadir la imagen de fondo
   bg = createSprite(displayWidth/2-20,displayHeight/2-40,20,20)
 bg.addImage(bgImg)
 bg.scale = 1.1
